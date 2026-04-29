@@ -1,0 +1,67 @@
+.outage-container {
+  padding: 1rem 1.5rem;
+  background: #f4f6fb;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.06);
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.outage-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.outage-header h1 {
+  font-size: 30px;
+  font-weight: 90;
+  color: #071689;
+  margin: 0;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.outage-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.outage-filters .ant-select,
+.outage-filters .ant-input {
+  border-radius: 6px;
+  height: 34px;
+  font-size: 13px;
+}
+
+.custom-ant-table .ant-table {
+  font-size: 13px;
+  background-color: #fff;
+}
+
+.custom-ant-table .ant-table-thead > tr > th {
+  background: #eef1f8;
+  font-weight: 600;
+  color: #333;
+  padding: 8px;
+}
+
+.custom-ant-table .ant-table-tbody > tr > td {
+  padding: 8px;
+}
+
+.custom-ant-table .ant-table-tbody > tr:hover {
+  background-color: #e6f4ff !important;
+  transition: background-color 0.3s ease;
+}
+
+.custom-ant-table .ant-tag {
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-weight: 500;
+}

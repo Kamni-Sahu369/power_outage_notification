@@ -1,0 +1,91 @@
+.outage-card-container {
+  background-color: #f1ecfb;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.outage-card-content {
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.outage-left {
+  flex: 1;
+  min-width: 280px;
+}
+
+.outage-left h2 {
+  font-size: 2.5rem;
+  font-weight: 70;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.outage-left p {
+  font-size: 1rem;
+  margin-top: 15px;
+  color: #333;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.outage-left button {
+  background-color: #5f2ddb;
+  color: #fff;
+  padding: 12px 28px;
+  border: none;
+  width: 250px;
+  /* border-radius: 30px; */
+  margin-top: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  transition: background-color 0.3s;
+}
+
+.outage-left button:hover {
+  background-color: #4a20b3;
+}
+
+.outage-right {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outage-right img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #52a9df;
+}
+
+/* Reverse Flex for the Second Block */
+.reverse {
+  flex-direction: row-reverse;
+}
+.main-content-wrapper {
+  overflow-x: hidden;
+}
+.outage-video {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.outage-card-container h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:60 ;
+  text-align: center;
+  font-size: 40px;
+  color: #32157a;
+}

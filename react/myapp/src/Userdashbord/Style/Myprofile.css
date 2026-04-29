@@ -1,0 +1,156 @@
+.Myprofile_main {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border:none ;
+  top: 0;
+  height: 390px;
+  width: 1000px;
+  position: relative;
+
+  box-shadow: 5px 5px 15px rgba(0, 10, 20, 0.3); 
+}
+.Myprofile_inner1 {
+  justify-content: space-between;
+   background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border:none;
+   height: 390px; 
+   display: flex;
+}
+.Myprofile_inner2 {
+  justify-content: space-between;
+  display: flex;
+   background: rgba(255, 255, 255, 0.1);
+  border-radius: 80px;
+  backdrop-filter: blur(10px);
+  border:none;
+  height: 250px;
+   width: 60%;
+   box-shadow: 5px 5px 15px rgba(0, 10, 20, 0.3); 
+   top: 300px;
+   position: absolute;
+   margin-left: 220px;
+}
+.Myprofile_div1{
+  border: none;
+  height: 350px;
+  width: 40%;
+}
+.Myprofile_div2{
+  border:none;
+  height: 350px;
+  width: 60%;
+  border: none;
+}
+.Myprofile_img{
+  border:none;
+  margin: auto;
+margin-top: 40px;
+  height: 250px;
+  width: 250px;
+  margin-right: 30px;
+  background-repeat: no-repeat;
+}
+.Myprofile_img img{
+  border: none;
+  margin: auto;
+  margin-top: 40px;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+.Myprofile_div2 h1{
+ text-align: left;
+ font-family: 'Times New Roman', Times, serif;
+ margin-top: 39px;
+}
+.Myprofile_div2 h2{
+  text-align: left;
+ margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(0, 162, 255);
+ }
+.Myprofile_div2 p{
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+}
+.Button1 {
+  height: 35px;
+  width: 190px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.Button1:hover {
+  background-color: darkblue;
+}
+.Button2 {
+  height: 35px;
+  width: 190px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.Button2:hover {
+  background-color: darkblue;
+}
+.Myprofile_div3 {
+  border:none;
+  width: 40%;
+  height: 250px;
+  background-image: url("../Userimage/logo.jpg");
+ justify-content: left;
+background-color: aliceblue;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 80px;
+}
+.Myprofile_div3 img{
+  border: none;
+}
+.Myprofile_div3 p{
+font-family: 'Times New Roman', Times, serif;
+text-align: left;
+
+}
+.Myprofile_div4 {
+  border: none;
+  width: 60%;
+  height: 250px;
+  background-color: rgb(0, 162, 255);
+  padding: 20px; 
+  border-top-right-radius: 80px;
+}
+.Myprofile_div4 li{
+  color: aliceblue;
+  font-size: 17px;
+  list-style: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Myprofile_img {
+  position: relative;
+  z-index: 10;
+  margin-top: -10px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Myprofile_img_display {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border: 5px solid white; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+

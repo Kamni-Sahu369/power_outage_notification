@@ -1,0 +1,16 @@
+.sidebar_main{
+    /* background: red; */
+     height: 633px;
+    border:none;
+    
+    background: linear-gradient(to bottom,rgb(62, 192, 247),rgb(46, 124, 203));
+}     
+.dashboardheaderbutton{
+    background:rgb(48, 132, 208); 
+}
+.dashboardheaderinner{
+    background: rgb(42, 130, 165) ;
+     height: 533px;
+    border: none;
+    background: linear-gradient(to bottom,rgb(62, 192, 247),rgb(46, 124, 203))
+}

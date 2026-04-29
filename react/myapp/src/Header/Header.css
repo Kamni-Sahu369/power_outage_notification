@@ -1,0 +1,52 @@
+.glass-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: rgba(255, 255, 255, 0.2); /* Glass Effect */
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .logo {
+    width: 50px;
+    height: 30px;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(69, 66, 66);
+    margin-top: 10px;
+  }
+  .login-container {
+    text-align: right;
+  }
+  
+  .login-button {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(69, 66, 66);
+    transition: 0.3s;
+  }
+  
+  .login-button:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  

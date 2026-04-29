@@ -1,0 +1,21 @@
+.sidebar {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  color: #fff;
+  z-index: 1000;
+  height: auto;
+}
+
+.toggle-button {
+  display: flex;
+  /* justify-content: center;
+  margin: 10px 0; */
+}
+.logout-btn{
+  background: none;
+  border: none;
+  color: rgb(255, 255, 255);
+}

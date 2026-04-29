@@ -1,0 +1,121 @@
+/* AlertPage.css */
+.alert-page {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.alert-page h2 {
+  margin-bottom: 20px;
+  color: #4c4a4a;
+  font-family: 'Times New Roman', Times, serif;
+ font-size: x-large;
+text-align: center;
+ align-items: center;
+}
+
+.alert-filters {
+  margin-bottom: 20px;
+}
+
+.alert-filters select {
+  /* padding: 8px 12px; */
+ margin-top: 40px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 350px;
+   height: 36px;
+  margin-left: 120px;
+  text-align: center;
+  color: #666;
+}
+
+.alert-filters select:hover{
+  border: 1px solid #dca326;
+}
+.area-search-input{
+  width: 350px;
+  height: 36px;
+   border: 1px solid #ccc;
+   padding: 8px 12px;
+  border-radius: 6px;
+   margin-left: 5px;
+    text-align: center;
+}
+.area-search-input:hover{
+ border: 1px solid #dca326;
+}
+
+.alert-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.alert-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: all 0.3s;
+}
+
+.alert-card:hover {
+  transform: translateY(-2px);
+}
+
+.alert-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alert-header h4 {
+  margin: 0;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  color: white;
+  font-size: 12px;
+}
+
+.badge.active {
+  background-color: red;
+}
+
+.badge.pending {
+  background-color: orange;
+}
+
+.badge.resolved {
+  background-color: green;
+}
+
+.alert-footer {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mark-read-btn {
+  margin-top: 12px;
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.mark-read-btn:hover {
+  background-color: #0056b3;
+}
+
+.no-alerts {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+}

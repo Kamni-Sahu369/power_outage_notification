@@ -1,0 +1,35 @@
+.glass-button{
+    font-family: 'Times New Roman', Times, serif;
+    height: 40px ;
+   width: 100px;
+   font-size:15px;
+   background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.modal-title{
+    margin-left:200px ;
+    font-size: larger;
+}
+.custom-input{
+    height: 40px;
+    width: 350px;
+    margin-left: 35px;
+    color: gray;
+}
+.login-option-btn{
+    height: 35px;
+    width: 200px;
+    background:#419dff ;
+    margin: auto;
+    margin-left:109px ;
+}
+.custom-form .ant-form-item {
+    margin-bottom: 10px;
+}
+.custom-form p{
+    margin-left: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
