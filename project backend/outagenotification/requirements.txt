@@ -56,3 +56,4 @@ virtualenv==20.27.1
 webencodings==0.5.1
 wheel==0.45.1
 whitenoise==6.8.2
+geopy==2.4.1
