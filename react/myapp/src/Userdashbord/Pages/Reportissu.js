@@ -5,7 +5,6 @@ import { Form, Input, Select, DatePicker, Button, Steps, message } from "antd";
 import { GrUserWorker } from "react-icons/gr";
 import { FaRegThumbsUp } from "react-icons/fa";
 import { ReportData } from "../../CoreApi";
-import dayjs from "dayjs";
 import { ToastContainer,toast } from "react-toastify";
 
 const { Step } = Steps;
