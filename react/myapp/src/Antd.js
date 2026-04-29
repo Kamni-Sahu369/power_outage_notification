@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button, ConfigProvider, Modal, Space, Form, Input } from "antd";
 import { Link, useNavigate } from "react-router-dom";
 import "./Style.css";
-import { ToastContainer, toast } from 'react-toastify';
+// import { ToastContainer, toast } from 'react-toastify';
 import axios from "axios";
 
 function Antd({ isLogin, setIsLogin }) {
@@ -73,7 +73,8 @@ function Antd({ isLogin, setIsLogin }) {
           localStorage.setItem("role", role);
           localStorage.setItem("id", response.data.id);
           localStorage.setItem("isLogin", JSON.stringify(true));
-           toast.success("Login successful");
+          //  toast.success("Login successful");
+          alert("Login successful!");
           setIsModalOpen(false);
 
           // ❗This line may be undefined if not passed from parent
