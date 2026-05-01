@@ -57,7 +57,7 @@ function Antd({ isLogin, setIsLogin }) {
   console.log("Sending:", values.emailaddress, values.password);
 
   axios
-    .post("http://127.0.0.1:8000/api/login/", values, {
+    .post("https://power-outage-notification.onrender.com/api/login/", values, {
       withCredentials: true,
     })
     .then((response) => {
