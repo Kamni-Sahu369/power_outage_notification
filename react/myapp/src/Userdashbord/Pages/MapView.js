@@ -234,7 +234,7 @@ const PowerOutageMap = () => {
   // ✅ Fetch outages from backend API
   const fetchOutages = async () => {
     try {
-      const response = await axios.get("http://127.0.0.1:8000/api/updatestatus/");
+      const response = await axios.get("https://power-outage-notification.onrender.com/api/updatestatus/");
       const data = response.data;
 
       // ✅ Map data to include lat/lon and necessary fields

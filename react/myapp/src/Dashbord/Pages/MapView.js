@@ -14,7 +14,7 @@ const PowerOutageMap = () => {
 
   const fetchOutages = async () => {
     try {
-      const response = await axios.get("http://127.0.0.1:8000/api/outages/");
+      const response = await axios.get("https://power-outage-notification.onrender.com/api/outages/");
       const data = response.data;
 
       const outageWithCoordinates = data.map((item, index) => ({
